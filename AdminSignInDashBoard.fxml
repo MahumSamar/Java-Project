@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="644.0" prefWidth="725.0" styleClass="login-bg" stylesheets="@SignIn.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flexTransport.AdminSignInDashBoard">
+   <children>
+      <AnchorPane layoutX="25.0" layoutY="223.0" prefHeight="95.0" prefWidth="673.0" styleClass="label-bg" stylesheets="@SignIn.css">
+         <children>
+            <Label layoutY="3.0" prefHeight="50.0" prefWidth="209.0" text="NUMBER OF CUSTOMERS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="257.0" layoutY="3.0" prefHeight="50.0" prefWidth="98.0" text="STUDENTS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="409.0" prefHeight="50.0" prefWidth="98.0" text="FACULTY" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="560.0" layoutY="1.0" prefHeight="50.0" prefWidth="98.0" text="DRIVERS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbNoOfCustomers" alignment="CENTER" layoutX="40.0" layoutY="54.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbStudents" alignment="CENTER" layoutX="257.0" layoutY="54.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbFaculty" alignment="CENTER" layoutX="410.0" layoutY="54.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbDrivers" alignment="CENTER" layoutX="560.0" layoutY="52.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="28.0" layoutY="374.0" prefHeight="94.0" prefWidth="670.0" styleClass="label-bg" stylesheets="@SignIn.css">
+         <children>
+            <Label alignment="CENTER" layoutX="32.0" layoutY="2.0" prefHeight="50.0" prefWidth="98.0" text="VEHICLES" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbNoOfVehicles" alignment="CENTER" layoutX="37.0" layoutY="52.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="560.0" prefHeight="50.0" prefWidth="98.0" text="SHUTTLE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="406.0" layoutY="1.0" prefHeight="50.0" prefWidth="98.0" text="VANS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="254.0" layoutY="2.0" prefHeight="50.0" prefWidth="98.0" text="BUSES" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbShuttle" alignment="CENTER" layoutX="561.0" layoutY="53.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbVans" alignment="CENTER" layoutX="409.0" layoutY="53.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbBuses" alignment="CENTER" layoutX="258.0" layoutY="52.0" prefHeight="41.0" prefWidth="93.0" text="Label" textFill="#fffdfd">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" layoutX="59.0" layoutY="11.0" prefHeight="121.0" prefWidth="599.0" text="FLEX TRANSPORT" textAlignment="CENTER" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Algerian" size="68.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

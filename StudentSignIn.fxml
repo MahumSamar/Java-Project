@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flexTransport.Student">
+   <children>
+      <BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="940.0" styleClass="login-bg" stylesheets="@SignIn.css">
+         <center>
+            <AnchorPane prefHeight="644.0" prefWidth="725.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="25.0" layoutY="108.0" prefHeight="513.0" prefWidth="890.0" styleClass="label-bg" stylesheets="@SignIn.css">
+                     <children>
+                        <Label alignment="CENTER" layoutX="328.0" layoutY="-2.0" prefHeight="50.0" prefWidth="236.0" text="Student Bio" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <GridPane layoutX="13.0" layoutY="64.0" prefHeight="427.0" prefWidth="430.0" style="-fx-background-color: #D4D4D4;">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="208.33334350585938" minWidth="10.0" prefWidth="144.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="311.3333435058594" minWidth="10.0" prefWidth="286.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="First Name" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Phone Number" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Gender" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Last Name" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txtFirstName" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="First Name" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <TextField fx:id="txtLastName" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="Last Name" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <TextField fx:id="txtPhoneNumber" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="Phone Number" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="49.0" prefWidth="151.0" text="StudentID">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txtStudentID" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="StudentID" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <TextField fx:id="txtGender" editable="false" layoutX="154.0" layoutY="206.0" prefHeight="37.0" prefWidth="260.0" promptText="Gender" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                           </children>
+                        </GridPane>
+                        <GridPane layoutX="444.0" layoutY="64.0" prefHeight="427.0" prefWidth="430.0" style="-fx-background-color: #D4D4D4;">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="205.66668701171875" minWidth="10.0" prefWidth="119.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="311.0" minWidth="10.0" prefWidth="311.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Department" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Email">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Area" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Address" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="49.0" prefWidth="151.0" text="Semester" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txtEmailAddress" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="Email" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <TextField fx:id="txtDepartment" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="Department" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <TextField fx:id="txtSemester" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="Semester" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <TextField fx:id="txtAddress" editable="false" prefHeight="37.0" prefWidth="260.0" promptText="Address" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                              <TextField fx:id="txtArea" editable="false" layoutX="129.0" layoutY="291.0" prefHeight="37.0" prefWidth="260.0" promptText="Area" styleClass="textfield-login" stylesheets="@SignIn.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <effect>
+                                    <DropShadow height="12.1" radius="5.55" width="12.1" />
+                                 </effect>
+                              </TextField>
+                           </children>
+                        </GridPane>
+                        <Label fx:id="lblStudentFee" layoutX="13.0" layoutY="15.0" prefHeight="36.0" prefWidth="196.0" style="-fx-background-color: #D4D4D4;" textFill="#3f17e1">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" layoutX="168.0" layoutY="-4.0" prefHeight="121.0" prefWidth="599.0" text="FLEX TRANSPORT" textAlignment="CENTER" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Algerian" size="68.0" />
+                     </font>
+                     <effect>
+                        <DropShadow color="WHITE" height="10.0" radius="4.5" width="10.0" />
+                     </effect>
+                  </Label>
+                  <Button fx:id="btSignOut" layoutX="792.0" layoutY="31.0" mnemonicParsing="false" onAction="#signOut" prefHeight="57.0" prefWidth="132.0" text="SIGN OUT">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,66 @@
+.login-bg
+{
+	-fx-background-color: linear-gradient(to top,#494848,#909090);
+}
+
+.btn-login
+{
+	-fx-background-radius: 20px;
+	-fx-background-color:  #494848;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 16px;
+	-fx-font-weight: 700;
+}
+
+.textfield-login
+{
+	-fx-background-radius:  20px;
+
+}
+
+.lbl-status
+{
+	-fx-background-radius: 8px;
+	-fx-background-color:  #494848;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 16px;
+	-fx-alignment: CENTER;
+}
+
+.lbl-user
+{
+	-fx-background-radius: 8px;
+	-fx-text-fill: black;
+	-fx-font-size: 16px;
+	-fx-alignment: CENTER;
+	-fx-font-weight: 600;
+}
+
+/*using tab pane as a navigation bar*/
+
+.tab-pane
+{
+	-fx-tab-max-height: 0px;
+}
+
+.tab-pane .tab-header-area
+{
+	visibility: hidden ;
+}
+
+.label-bg
+{
+    -fx-background-color:  #989898;
+}
+
+
+
+
+
+
+
+
+
+
+
+
